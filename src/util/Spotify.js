@@ -1,5 +1,5 @@
-const clientId = '53759af1d6444beb822b72e84720a6e4';
-const redirectUri = 'http://fredjam.surge.sh/';
+const clientId = '6c8763c8c717495699cc537dd1d85aa7';
+const redirectUri = 'http://listify.surge.sh/';
 const spotifyUrl = `https://accounts.spotify.com/authorize?response_type=token&scope=playlist-modify-public&client_id=${clientId}&redirect_uri=${redirectUri}`;
 let accessToken = undefined;
 let expiresIn = undefined;
